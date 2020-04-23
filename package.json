@@ -1,0 +1,51 @@
+{
+  "name": "react-with-workbox",
+  "gcm_sender_id": "594165136203",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.1.2",
+    "@react-google-maps/api": "^1.8.6",
+    "antd": "^4.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "google-maps-react": "^2.0.2",
+    "history": "^4.10.1",
+    "idb": "^5.0.2",
+    "lodash": "^4.17.15",
+    "mapbox-gl": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.4.2",
+    "react-app-rewire-workbox": "^2.0.1",
+    "react-app-rewired": "^1.5.2",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.4.2",
+    "react-google-maps": "^9.4.5",
+    "react-leaflet": "^2.6.3",
+    "react-leaflet-markercluster": "^2.0.0",
+    "react-mapbox-gl": "^4.8.3",
+    "react-mapbox-gl-draw": "^2.0.4",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^8.4.1",
+    "recompose": "^0.30.0",
+    "web-push": "^3.4.3",
+    "workbox-webpack-plugin": "^3.4.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "b": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "rs": "react-scripts start",
+    "s": "http-server ./build",
+    "r": "react-app-rewired build && http-server ./build",
+    "web-push": "web-push",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}

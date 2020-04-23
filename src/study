@@ -1,0 +1,22 @@
+
+
+// notification subscription 
+
+//  to generate vapid key run only once at development time
+
+npm run web-push generate-vapid-keys
+
+
+https://tools.reactpwa.com/vapid?email=abhijeetkhire%40gmail.com
+
+
+// Public Key:
+// BCj54G9kp6-MuxVje45_rEdNd24WnFaDLOquVDqrdeqGy_NwwaeTovYJoKdP429zTri6hqypw4TXKMFF6a57aMQ
+// 
+// Private Key:
+// GpfiXbQhSh0PUQwULe4WOH0XZbI8lwNjT01acjA1Wv4
+//******************************************* */
+// Generate VAPID Keys
+// The web-push library relies on a set of VAPID keys to work. VAPID keys are a pair of public and private keys which is used to restrict the validity of a push subscription to a specific application server, and also to identify the server that is sending the push notifications.
+
+// You can generate the VAPID key pair by running the command below from the root of your project directory:
